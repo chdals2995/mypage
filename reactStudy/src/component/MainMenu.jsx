@@ -8,6 +8,7 @@ export default function MainMenu(){
             <Link to="/BoardMake">게시판 작성문제</Link>
             <Link to="/member">멤버</Link>
             <Link to="/store">상점구매</Link>
+            <Link to="/hw">1105숙제</Link>
         </div>
     );
 }

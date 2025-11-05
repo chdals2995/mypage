@@ -7,6 +7,8 @@ import Info from './component/study1/Info';
 import Board from './component/study1/Board';
 import Member from './component/study1/Member';
 import Store from './component/study1/store';
+import Hw from "./component/study1/hw";
+import Schedule from "./component/study1/schedule";
 
 function App() {
   
@@ -18,6 +20,9 @@ function App() {
         <Route path='/BoardMake' element = {<Board/>}/>
         <Route path='/member' element = {<Member/>}/>
         <Route path='/store/*' element = {<Store/>}/>
+        <Route path='/Hw' element = {<Hw/>}>
+          <Route index element={<Schedule/>}/>
+        </Route>
       </Routes>
     </Router>
       

@@ -10,7 +10,7 @@ export default function Store(){  //부모한테 지정한 값
     const [item, setItem] = useState({
         name: "",
         price: 0,
-        brand:"",
+        brand:""
     });
 
     return(
